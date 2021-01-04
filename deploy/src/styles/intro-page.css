@@ -1,0 +1,55 @@
+.home-page .header .left img {
+    box-shadow: -25px -25px 25px rgb(165, 165, 165);
+    border-radius: 8px;
+}
+
+.home-page .right .text {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.home-page .right .more-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: max-content;
+    padding: 0.4em 1em 0.4em 1em;
+    margin: 2em auto;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.home-page .right .more-button a {
+    color: black;
+}
+.home-page .right .more-button:hover a { color: white; }
+.home-page .right .more-button:hover {
+    padding: 0.4em 2em 0.4em 2em;
+    background: black;
+}
+
+.home-page .random-images {
+    margin: 3em;
+    width: 90%;
+    margin: auto !important;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgb(187, 187, 187);
+}
+
+.home-page .random-images > div {
+    height: 270px;
+    overflow: hidden;
+}
+
+.home-page .random-images > div img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.home-page .random-images > div img:hover { transform: scale(1.3); }
+
+.home-page video {
+    overflow: hidden;
+    border-radius: 20px;
+}

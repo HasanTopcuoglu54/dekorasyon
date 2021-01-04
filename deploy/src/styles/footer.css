@@ -1,0 +1,102 @@
+footer {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 25px var(--shadow);
+    padding-top: 1em;
+}
+
+footer .info {
+    width: 100%;
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    padding: 0.1em;
+    font-weight: 400;
+    margin-top: 3em;
+}
+
+footer > div {
+    padding: 1em;
+}
+
+footer .left a {
+    color: var(--black);
+    font-size: 1.4em;
+    transition: 0.2s;
+    margin: 0.5em;
+}
+
+footer .left a:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+footer .center visage-link {
+    transition: 0.2s;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0.2em;
+    border-left: 2px solid orange;
+    padding-left: 0.3em;
+}
+footer .center visage-link:hover
+{
+    font-weight: bold;
+    color:orangered
+}
+
+
+footer .center li {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+footer .center visage-link:hover {
+    padding-left: 0.8em;
+}
+
+footer .right img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer .right img:hover
+{
+    transform: scale(1.2);
+}
+footer .right {
+    text-align: center;
+}
+footer .right .view
+{
+    color:black;
+    font-weight:500;
+}
+footer .fav a
+{
+    color:black;
+}
+footer .fav a:hover
+{
+    transform:scale(1.7);
+}
+footer .Information
+{
+    color:orangered;
+    font-weight:bold;
+    
+}
+footer .Information:hover{transform: scale(1.1); padding:6px;}
+footer .adres
+{
+    list-style-type: none;
+    font-size:18px;
+    padding:3px;
+    
+}
+footer .adres .list-type
+{
+    margin-right: 8em;
+    margin-top:6px;
+}

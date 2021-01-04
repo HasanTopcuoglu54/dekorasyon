@@ -1,0 +1,115 @@
+
+.nav-bar {
+    border-bottom: 1px solid var(--line);
+    padding: 0.3em 0.3em 0.3em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar .right i {
+    cursor: pointer;
+}
+
+.nav-bar .right .close-icon {
+    position: absolute;
+    left: 0.5em; top: 0.5em;
+}
+
+.nav-bar .right .nav-bar-shadow {
+    position: fixed;
+    background: black;
+    left: 0; right: 0; top: 0; bottom: 0;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.nav-bar .right .nav-bar-container {
+    position: fixed;
+    left: -0em; top: 0; bottom: 0;
+    background: var(--nav-bar-black);
+    z-index: 3;
+    transition: 0.3s;
+    color: #DCE4E4;
+    padding-top: 5em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    font-weight: 600;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.nav-bar .right .nav-bar-container > div {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0.8em;
+}
+
+.nav-bar .right .nav-bar-container > div:hover {
+    color: orange;
+}
+
+.nav-bar .right .nav-bar-container > div .more { display: none; }
+.nav-bar .right .nav-bar-container > div:hover > div { display: block; }
+.nav-bar .right .nav-bar-container > div:hover li { color: white !important; transition: 0.1s;}
+.nav-bar .right .nav-bar-container > div:hover li:hover {
+    margin-left: 0.5em;
+}
+
+.nav-bar .left img {
+    width: 50%;
+    height: auto;
+    margin: 0;
+}
+
+.nav-bar .left {
+    text-align: right;
+    padding: 0; margin: 0;
+}
+
+.nav-bar .middle h3 {
+    font-weight: 100;
+}
+
+.nav-bar .middle h3 span:first-child {
+    color: orange;
+}
+.nav-bar .ecmel
+{
+    color:white;
+    text-align: center;
+    margin-top:3em;
+    transform: scale(0.6);
+}
+.nav-bar .captions .ecmel:hover
+{
+    color:gainsboro;
+    transform: scale(1.2);
+}
+.nav-bar .ecmel img
+{
+    margin-left:1em;
+    width: 10%;
+}
+.nav-bar .captions .ecmel a
+{
+    
+    color:white;
+}
+.contact
+{
+    color:white;
+}
+.contact:hover
+{
+    color:orange;
+}
